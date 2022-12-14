@@ -1,13 +1,5 @@
 # letterfreqpy
 
-## Explanation
-
-- Script reads a text file with open -> read
-- All chars in text are lowered
-- All symbols and whitespaces are stripped
-- Each letter is counted and expressed in percent from the grand total
-- Output is sorted and then pretty printed
-
 ## Usage
 
 Provide a plaintext file as input:
@@ -48,3 +40,11 @@ k -> 0.0%
 w -> 0.0%
 y -> 0.0%
 ```
+
+## Explanation
+
+- Script reads a text file with open -> read
+- All chars in text are lowered
+- All symbols and whitespaces are stripped
+- Each letter is counted and expressed in percent from the grand total
+- Output is sorted and then pretty printed
