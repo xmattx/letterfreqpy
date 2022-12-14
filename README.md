@@ -48,3 +48,7 @@ y -> 0.0%
 - All symbols and whitespaces are stripped
 - Each letter is counted and expressed in percent from the grand total
 - Output is sorted and then pretty printed
+
+## Nice stuff ToDo
+
+- plot results
