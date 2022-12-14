@@ -6,6 +6,7 @@ Provide a plaintext file as input:
 
 ```bash
 python letterfreq.py --file "divinacommedia.txt"
+python letterfreq.py --file "divinacommedia.txt" --plot
 ```
 
 Example output of script, ran on a plaintext version of Dante Alighieri's Divina Commedia
@@ -41,14 +42,14 @@ w -> 0.0%
 y -> 0.0%
 ```
 
+Example of script output, with "--plot" spcified (if you want to compare your file with Italian Letters Distribution):
+
+![alt text](https://i.ibb.co/LdDHPy0/Capture.jpg)
+
 ## Explanation
 
 - Script reads a text file with open -> read
 - All chars in text are lowered
 - All symbols and whitespaces are stripped
 - Each letter is counted and expressed in percent from the grand total
-- Output is sorted and then pretty printed
-
-## Nice stuff ToDo
-
-- plot results
+- Output is sorted and then pretty printed or plotted if "--plot" is specified
